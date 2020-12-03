@@ -4,12 +4,9 @@ $counter++;
  setcookie("counter",$counter);
     echo $counter;
     $x = 5;
-function huy(){
-    global $x;
-    echo $x;
-}
 
-huy();
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
